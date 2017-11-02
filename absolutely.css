@@ -14,3 +14,105 @@ body {
 	border : 4px solid red;
 }
 
+nav{
+	background-image: url("bar1.png");
+	background-repeat: repeat-x;
+	height: 25px;
+}
+
+.text{
+  background-color: rgba(255, 255, 255, 0.5);
+	height: 340px;
+	margin-top: 350px;
+}
+h1{
+	height: 20px;
+	margin-left: 8px;
+}
+p{
+	margin-left: 8px;
+	width: 698px;
+
+}
+li{
+	background-color: white;
+	height: 25px;
+	width: 95px;
+	border: 1px solid black;
+	text-decoration: none;
+}
+
+
+ul{
+	margin-top: -70px;
+	display: none;
+	margin-bottom: -40px;
+	margin-left: 165px;
+	list-style-type: none;
+
+}
+#toolbox:hover ul{
+	display: block;
+	position: absolute;
+	right: 150px;
+}
+
+span#toolbox{
+	position: absolute;
+	right: 820px;
+	top: 300px;
+}
+a#title{
+	position: absolute;
+	top: 70px;
+	left: 630px;
+}
+
+a#hammer{
+	position: absolute;
+	right: 700px;
+	top: 50px;
+}
+
+a#screwdriver{
+	position: absolute;
+	right: 560px;
+	top: 250px;
+}
+a#saw{
+	position: absolute;
+	left: 570px;
+	top: 200px;
+}
+a#pincers{
+	position: absolute;
+	top: 365px;
+	right: 560px;
+}
+li a:hover{
+	color:black;
+}
+li a:visited{
+	color: black;
+}
+
+a#saw:hover
+{
+	margin-top: 10px;
+}
+a#title:hover
+{
+	margin-top: 10px;
+}
+a#hammer:hover
+{
+	margin-top: 10px;
+}
+a#screwdriver:hover
+{
+	margin-top: 10px;
+}
+a#pincers:hover
+{
+	margin-top: 10px;
+}
