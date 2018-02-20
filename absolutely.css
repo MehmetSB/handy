@@ -5,6 +5,7 @@ body {
 	background-color : black;
 	/* toe te voegen */
 }
+
 .all {
 	text-align : left;
 	width : 700px;
@@ -25,15 +26,19 @@ nav{
 	height: 340px;
 	margin-top: 350px;
 }
+
 h1{
 	height: 20px;
 	margin-left: 8px;
 }
+
 p{
-	margin-left: 8px;
+	margin-left: 3px;
 	width: 698px;
+	margin-top: -10px;
 
 }
+
 li{
 	background-color: white;
 	height: 25px;
@@ -42,6 +47,20 @@ li{
 	text-decoration: none;
 }
 
+li:hover{
+	text-decoration: none;
+	background-color: #FFFFAA;
+}
+
+nav a{
+	text-decoration: none;
+	margin-right: 40px;
+	font-weight: bold;
+}
+
+a:visited{
+	color: #808080
+}
 
 ul{
 	margin-top: -70px;
@@ -49,8 +68,8 @@ ul{
 	margin-bottom: -40px;
 	margin-left: 165px;
 	list-style-type: none;
-
 }
+
 #toolbox:hover ul{
 	display: block;
 	position: absolute;
@@ -62,6 +81,7 @@ span#toolbox{
 	right: 820px;
 	top: 300px;
 }
+
 a#title{
 	position: absolute;
 	top: 70px;
@@ -79,19 +99,23 @@ a#screwdriver{
 	right: 560px;
 	top: 250px;
 }
+
 a#saw{
 	position: absolute;
 	left: 570px;
 	top: 200px;
 }
+
 a#pincers{
 	position: absolute;
 	top: 365px;
 	right: 560px;
 }
+
 li a:hover{
 	color:black;
 }
+
 li a:visited{
 	color: black;
 }
@@ -100,19 +124,46 @@ a#saw:hover
 {
 	margin-top: 10px;
 }
+
 a#title:hover
 {
 	margin-top: 10px;
 }
+
 a#hammer:hover
 {
 	margin-top: 10px;
 }
+
 a#screwdriver:hover
 {
 	margin-top: 10px;
 }
+
 a#pincers:hover
 {
 	margin-top: 10px;
+}
+
+span#humanfactor {
+    position: relative;
+    color: blue;
+    cursor: pointer;
+}
+
+span#humanfactor:hover #meaning {
+    display: block;
+}
+
+span#meaning {
+		background-color: white;
+		color: black;
+		position: absolute;
+		border: 2px solid blue;
+    display: none;
+    border-radius: 10px;
+    padding: 5px;
+    top: 17px;
+    left: 0px;
+    width: 200px;
 }
