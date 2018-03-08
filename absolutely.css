@@ -28,6 +28,7 @@ nav#nav:hover a.item{
 		color: black;
 }
 
+
 nav a{
 	text-decoration: none;
 	margin-right: 40px;
@@ -51,7 +52,7 @@ p{
 	font-weight: 540;
 	padding-left: 15px;
 	width: 660px;
-	line-height: 22px;
+	line-height: 21px;
 	margin: 0;
 	font-size: 13px;
 }
