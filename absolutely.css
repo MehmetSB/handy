@@ -18,6 +18,10 @@ nav#nav{
     background-image: url("bar1.png");
 		background-repeat: repeat-x;
 		height: 25px;
+		position: fixed;
+		left: 0;
+	 	top: 0;
+	 	width: 100%;
 }
 
 nav#nav:hover{
@@ -27,7 +31,6 @@ nav#nav:hover{
 nav#nav:hover a.item{
 		color: black;
 }
-
 
 nav a{
 	text-decoration: none;
