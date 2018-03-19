@@ -6,6 +6,7 @@ body{
 }
 
 .all{
+	position: relative;
 	text-align : left;
 	width: 700px;
 	margin: 100px auto;
@@ -15,21 +16,21 @@ body{
 }
 
 nav#nav{
-    background-image: url("bar1.png");
-		background-repeat: repeat-x;
-		height: 25px;
-		position: fixed;
-		left: 0;
-	 	top: 0;
-	 	width: 100%;
+	background-image: url("bar1.png");
+	background-repeat: repeat-x;
+	height: 25px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
 }
 
 nav#nav:hover{
-    background-image: url("bar2.png");
+	background-image: url("bar2.png");
 }
 
 nav#nav:hover a.item{
-		color: black;
+	color: black;
 }
 
 nav a{
@@ -88,43 +89,44 @@ ul{
 #toolbox:hover ul{
 	display: block;
 	position: absolute;
-	right: 150px;
+	right: 160px;
+	top: 160px;
 }
 
 span#toolbox{
 	position: absolute;
-	right: 820px;
-	top: 300px;
+	right: 220px;
+	top: 170px;
 }
 
 a#title{
 	position: absolute;
-	top: 70px;
-	left: 630px;
+	top: -70px;
+	left: 20px;
 }
 
 a#hammer{
 	position: absolute;
-	right: 700px;
-	top: 50px;
+	right: 90px;
+	top: -75px;
 }
 
 a#screwdriver{
 	position: absolute;
-	right: 560px;
-	top: 250px;
+	right: -45px;
+	top: 130px;
 }
 
 a#saw{
 	position: absolute;
-	left: 570px;
-	top: 200px;
+	right: 560px;
+	top: 40px;
 }
 
 a#pincers{
 	position: absolute;
-	top: 365px;
-	right: 560px;
+	top: 225px;
+	right: -60px;
 }
 
 li a:hover{
@@ -156,24 +158,28 @@ a#pincers:hover{
 }
 
 span#humanfactor {
-    position: relative;
-    color: blue;
-    cursor: pointer;
+	position: relative;
+  color: blue;
+  cursor: pointer;
 }
 
 span#humanfactor:hover #meaning {
-    display: block;
+  display: block;
 }
 
 span#meaning {
-		background-color: white;
-		color: black;
-		position: absolute;
-		border: 2px solid blue;
-    display: none;
-    border-radius: 10px;
-    padding: 5px;
-    top: 17px;
-    left: 0px;
-    width: 200px;
+	background-color: white;
+	color: black;
+	position: absolute;
+	border: 2px solid blue;
+  display: none;
+  border-radius: 10px;
+  padding: 5px;
+  top: 17px;
+  left: 0px;
+  width: 200px;
+}
+
+a{
+	text-decoration: none;
 }
